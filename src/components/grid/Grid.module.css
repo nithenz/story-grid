@@ -1,0 +1,25 @@
+.grid {
+    @apply w-full max-w-xs;
+
+    display: grid;
+    grid-template-areas:
+        "a a b b"
+        "c c c c"
+        "c c c c";
+    gap: 16px;
+    padding: 16px;
+    height: 360px;
+}
+
+/* @media (min-width: 600px) {
+    .grid {
+        max-width: 600px;
+        grid-template-areas:
+            "a a b b c c"
+            "d d d e e e"
+            "f f f f f f"
+            "f f f f f f"
+            "f f f f f f";
+        height: 600px;
+    }
+} */
